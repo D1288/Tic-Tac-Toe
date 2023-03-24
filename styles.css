@@ -8,6 +8,8 @@ body {
     width: 1000px;
     margin: auto;
     text-align: center;
+    background-color: rgb(247, 247, 161);
+    font-family:'Permanent Marker', Georgia, 'Times New Roman', Times, serif;
 }
 
 .cellContainer {
@@ -17,7 +19,7 @@ body {
     border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+    margin-top: 20px;
 }
 
 .hidden{
@@ -32,6 +34,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.cell:hover{
+    background-color: rgb(216, 216, 248);
 }
 
 button {
